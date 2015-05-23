@@ -1,8 +1,14 @@
-#include <stdio.h>
+
+#include "protocol.h"
 
 int
-main ()
-{
-  printf("Hello World!\n");
+main (
 
+) 
+{
+  printf ("Main Runtime Service\n");
+
+  GyroInit ();
+
+  return 0;
 }
